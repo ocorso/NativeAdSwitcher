@@ -4,10 +4,12 @@ main.xml.auto = "http://storage.googleapis.com/native/auto.xml";
 main.xml.movies = "http://storage.googleapis.com/native/movies.xml"
 main.xml.retail = "http://storage.googleapis.com/native/retail.xml";
 
+main.howManyPosts = 6;
+
 jQuery( function($){
 	console.log("-- Doc Ready Start --");
 
-//	parseXML("http://ad.doubleclick.net/N6310/pfadx/VNAT_testing;sz=0x0;dcmt=text/xml;ord=76744343456434");
+	parseXML("http://ad.doubleclick.net/N6310/pfadx/VNAT_testing;sz=0x0;dcmt=text/xml;ord=76744343456434");
 });
 
 function parseXML (url) {
@@ -15,14 +17,14 @@ function parseXML (url) {
 	
 	xhr.onreadystatechange=function(){
  		if (xhr.readyState==4 && xhr.status==200){
- 			console.log("readyStateChange");
- 	 		var xmlTag = xhr.responseXML.getElementsByTagName("Impression")[0].childNodes[0].nodeValue;
+ 			console.log(xhr.responseXML);
+ 	 		//var xmlTag = xhr.responseXML.getElementsByTagName("Impression")[0].childNodes[0].nodeValue;
 			//change to desired xml tag
-			 var attributeName = xhr.responseXML.getElementsByTagName("Tracking")[0].getAttributeNode("event").name;
+			// var attributeName = xhr.responseXML.getElementsByTagName("Tracking")[0].getAttributeNode("event").name;
 			//change to desired xml tag and attribute name
-			 var attributeValue = xhr.responseXML.getElementsByTagName("Tracking")[0].getAttributeNode("event").value;
+			// var attributeValue = xhr.responseXML.getElementsByTagName("Tracking")[0].getAttributeNode("event").value;
 			//change to desired xml tag and attribute name
-			 alert("name: "+attributeName+", value: "+attributeValue+", tag: "+xmlTag);
+			// alert("name: "+attributeName+", value: "+attributeValue+", tag: "+xmlTag);
 	    }
  	}
 	
