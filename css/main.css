@@ -94,9 +94,9 @@ textarea {
 }
 
 /* ==========================================================================
-   Author's custom styles
+   ORed's custom styles
    ========================================================================== */
-
+.nav-pills a{ outline: none;}
 
 body {
   padding-top: 70px;
@@ -114,18 +114,222 @@ body {
 }
 
 
+#switcher_btns{
+margin-top: 20px;
+padding-bottom: 20px;
+}
+#posts{
+  padding-left: 0;
+  padding-top: 20px;
+  margin-top: 20px;
+}
+.post{
+  position: relative;
+}
+   /* ==========================================================================
+   Desktop In-Feed
+   ========================================================================== */
+.desktop-infeed{
+    border: solid gray 1px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px; /* future proofing */
+    padding: 10px;
+    margin: 10px;
+    width: 395px;
+    float: left;
+}
+.desktop-infeed header,
+.desktop-infeed .body-140, 
+.desktop-infeed .img-300x60, 
+.desktop-infeed .featured-section, 
+.desktop-infeed .img-125x83,
+.desktop-infeed .img-312x162,
+.desktop-infeed .img-300x250{ 
+  display: none;
+}
+.desktop-infeed .img-120x45{
+  float: left;
+  padding-right: 10px;
+}
+#abgc,#abgb,#abgl,#abgs{
+  margin:0;
+  padding: 0;
+  
+}
+#abgc{
+  height: 15px;
+  position: absolute;
+  right: 0;
+  text-rendering: geometricprecision;
+  top: 0;
+  width: 15px;
+  z-index: 9010;
+}
+#abgb {
+  height: 100%;
+}
+#abgs {
+  display: none;
+  height: 100%;
+}
+#abgl {
+  text-decoration: none;
+}
+#abgc svg {
+  display: block;
+}
 
+   /* ==========================================================================
+   Facebook Feed
+   ========================================================================== */
 
+.facebook-container{
+  width: 360px;
+  height: 519px;
+  overflow: scroll;
+  background-color: #d3d6db;
+  padding-right: 0;
+  padding-left: 0;
+}
 
+#facebook_header{
+  display: none;
+  margin: 0 auto;
+  width: 360px;
+}
+.facebook-feed{
+  background-color: #fff;
+  width: 330px;
+  margin-left: auto;
+  margin-right: auto;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px; /* future proofing */
+  -moz-box-shadow:    1px 1px 1px 1px rgba(0,0,0,0.2);
+  -webkit-box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.2);
+  box-shadow:         1px 1px 1px 1px rgba(0,0,0,0.2);
+font-family: 'lucida grande', tahoma, verdana, arial, sans-serif;
 
+}
+.facebook-feed header{
+  padding: 7px;
+}
+.facebook-feed header img{
+  float: left;
+  margin-right: 11px;
+}
+.facebook-feed .brand-name{
+  font-weight: bold;
+  font-size: 13px;
+  margin: 0;
+  padding:0;
+}
+.facebook-feed .sponsored{
+  color: #c1c1c6;
+}
+.facebook-feed .icon-public{
+  width: 10px;
+  height: 10px;
+  background-position: -19px 0px;
+  background-image: url('../img/sprite-sheet.png');
+  position: relative;
+}
+.facebook-feed .body-140, .facebook-feed .featured-section{
+  margin-left: 8px;
+}
 
+.facebook-feed .body-500,
+.facebook-feed .cta, 
+.facebook-feed .img-300x60, 
+.facebook-feed .img-300x250, 
+.facebook-feed .img-125x83, 
+.facebook-feed .img-120x45{
+  display: none;
+}
+.facebook-feed .featured-section{
+-webkit-box-shadow: 1px 1px 1px 1px rgba(0,0,0,.1);
+box-shadow: 1px 1px 1px 1px rgba(0,0,0,.1);
 
+margin-right: 12px;
+}
+.facebook-feed .featured-section {
+  color: #262626;
+}
+.facebook-feed .featured-section .featured-title{
+  font-weight: bold;
+}
+   /* ==========================================================================
+   Text Link with Images
+   ========================================================================== */
+.textlink-img .title{
+  font-size: 16px;
+}
 
+.textlink-img header,
+.textlink-img .body-500,
+.textlink-img .featured-section,
+.textlink-img .img-300x60,
+.textlink-img .img-300x250{
+  display: none;
+}
+/* ==========================================================================
+   Desktop In-Page
+   ========================================================================== */
+.desktop-inpage .body-500,
+.desktop-inpage .featured-section,
+.desktop-inpage .more-info,
+.desktop-inpage .img-120x45,
+.desktop-inpage .img-312x162,
+.desktop-inpage .img-300x250,
+.desktop-inpage .img-300x60{
+  display: none;
+}
 
+.desktop-inpage{
+  position: absolute;
+  background-color: rgba(255,0,0,.2);
+  top: 795px;
+  height: 150px;
+  width: 536px;
 
-
-
-
+}
+.desktop-inpage .title{
+  color: #0077ee;
+  font-size: 19px;
+  margin-top: 12px;
+}
+.desktop-inpage .img-125x83{
+  position:absolute;
+  top: 15px;
+  left: 3px;
+}
+.desktop-inpage header{
+  position: absolute;
+  top: 98px;
+  width: 100%;
+}
+.desktop-inpage .brand-name{
+  font-size: 15px;
+  color: #0077ee;
+  position: absolute;
+  left: 45px;
+  top: 16px;
+  margin-top: 0
+}
+.desktop-inpage .sponsored{
+  position: absolute;
+  top: 0;
+  left: 45px;
+}
+.desktop-inpage .title, .desktop-inpage .body-140, .desktop-inpage header{
+  margin-left: 138px;
+}
+.desktop-inpage-container{
+  width: 1119px;
+  height: 1004px;
+  background-image: url('../img/fpo/buzzfeed-fpo.jpg');
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */

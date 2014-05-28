@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Native Ads Proof of Concept | Demo</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+<!--[if lt IE 7]>
+    <p class="browsehappy">You are using an <strong>outdated</strong> browser. 
+    Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve
+    your experience.</p>
+<![endif]-->
+
+ <!-- Fixed navbar -->
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Native Ad Showcase</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Home</a></li>
+            <li  class="active"><a href="demo.html">Demo</a></li>
+            <li><a href="https://docs.google.com/a/google.com/document/d/19vviIy6gOsWVNAw6q0JJ62AGTRSeKeSB3_xpRe8UlKQ/edit#" target="_blank">About</a></li>
+            <li><a href="mailto:ocorso@google.com">Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+    <div class="container" role="main">
+        <div class="page-header">
+            <h1>Native Ads Demo</h1>
+        </div>
+        <ul id="switcher_btns" class="page-header nav nav-pills">
+          <li id="desktop_infeed" class="active"><a href="#" title="">Desktop In-Feed</a></li>
+          <li id="facebook_feed"><a href="#">Facebook Mobile Feed</a></li>
+          <li id="textlink_img"><a href="#">Text Link with Image</a></li>
+          <li id="desktop_inpage"><a href="#">Desktop In-Page</a></li>
+        </ul>
+    </div><!-- /container -->
+
+    <div id="facebook_header">
+        <img width="360" height="121" src="img/facebook-header.jpg" />
+    </div> 
+<div id="posts" class="container" role="main">
+
+  <div class="desktop-infeed post">
+
+    <header>
+        <a class="brand" title="Brand Page" href="http://www.movies.org"><img height="34" width="34" src="http://localhost:8888/img/movies/Movie_34x34.jpg" alt="Brand Thumbnail" /></a>
+        <a class="brand" href="http://universal.com" title="Brand Page"><h3 class="brand-name">Universal Studios</h3></a>
+        <p class="sponsored">Sponsored <i class="icon-public"></i></p>
+    </header>
+    <a class="cta" href="http://www.Movies.org"><h2 class="title">12 Signs You Live Life In The Fast Lane</h2></a>
+    <p class="body-140">Pedal? Meet metal. Your life is fast, and your need for speed is only satisfied by watching fast cars.</p>
+    <img class="img-120x45" src="http://localhost:8888/img/movies/Movie_120x45.jpg" alt="Image Thumbnail"/>
+    <div class="featured-section">
+        <img class="img-312x162" width="312" height="162" src="http://localhost:8888/img/movies/Movie_624x324.jpg" alt="Image Thumbnail"/>
+        <h5 class="featured-title">Help the NCIC 2015 Team</h5>
+        <p class="featured-description">If they achieve their fundraising...</p>
+    </div>
+    <p class="body-500">Recent reviews of the family comedy Talking Pets 2: Off The Leash have been surprisingly good, say various newspapers. After Talking Pets 1: On The Leash performed well at the box office but poorly with critics, director Jon Van Beerhoven really pulled out all the stops. "I went 100% CG on this one. No animals... or humans... were harmed, or even used in this production."</p>
+    <img class="img-125x83" src="http://localhost:8888/img/movies/Movie_125x83.jpg" />
+    <img class="img-300x60" src="http://localhost:8888/img/movies/Movie_300x60.jpg" alt="Image Thumbnail"/>
+    <img class="img-300x250" src="http://localhost:8888/img/movies/Movie_300x250.jpg" alt="Image Thumbnail"/>
+    <img class="dart_tracking" src="http://localhost:8888/img/movies/1x1.GIF" />
+    <a class="more-info cta" href="http://www.Movies.org">Learn More</a>
+  </div>
+
+
+    </div> <!-- /container 
+
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>-->
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="js/vendor/bootstrap.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='http://www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script> 
+    </body>
+</html>

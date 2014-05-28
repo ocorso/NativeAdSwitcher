@@ -1,0 +1,18 @@
+<NAST version="1.0">
+	<Ad id="000000002">
+		<Impression id="DART"><![CDATA[http://localhost:8888/img/movies/1x1.GIF]]></Impression>
+		<ClickTracking id="DART"><![CDATA[http://localhost:8888/img/movies/1x1.GIF]]></ClickTracking>
+		<ClickThrough><![CDATA[http://www.Movies.org]]></ClickThrough>
+		<Title>Talking Pets 2 is a Runaway Hit</Title>
+		<BrandName>Universal Studios</BrandName>
+		<BrandClickThrough><![CDATA[http://www.universal.com]]></ClickThrough>
+		<Body charactermax="140">Recent reviews have been surprisingly good</Body>
+		<Body charactermax="500">Recent reviews of the family comedy Talking Pets 2: Off The Leash have been surprisingly good, say various newspapers. After Talking Pets 1: On The Leash performed well at the box office but poorly with critics, director Jon Van Beerhoven really pulled out all the stops. "I went 100% CG on this one. No animals... or humans... were harmed, or even used in this production."</Body>
+		<MediaFile id="1" delivery="progressive" type="image/jpeg" width="34" height="34"><![CDATA[http://localhost:8888/img/movies/Movie_34x34.jpg]]></MediaFile>
+		<MediaFile id="1" delivery="progressive" type="image/jpeg" width="120" height="45"><![CDATA[http://localhost:8888/img/movies/Movie_120x45.jpg]]></MediaFile>
+		<MediaFile id="1" delivery="progressive" type="image/jpeg" width="125" height="83"><![CDATA[http://localhost:8888/img/movies/Movie_125x83.jpg]]></MediaFile>
+		<MediaFile id="2" delivery="progressive" type="image/jpeg" width="300" height="60"><![CDATA[http://localhost:8888/img/movies/Movie_300x60.jpg]]></MediaFile>
+		<MediaFile id="3" delivery="progressive" type="image/jpeg" width="300" height="250"><![CDATA[http://localhost:8888/img/movies/Movie_300x250.jpg]]></MediaFile>
+		<MediaFile id="4" delivery="progressive" type="image/jpeg" width="312" height="162"><![CDATA[http://localhost:8888/img/movies/Movie_624x324.jpg]]></MediaFile>
+	</Ad>
+</NAST>

@@ -1,0 +1,13 @@
+<VNAT version="1.0">
+	<Ad id="000000003">
+		<Impression id="DART"><![CDATA[http://storage.googleapis.com/native/1x1.GIF]]></Impression>
+		<ClickTracking id="DART"><![CDATA[http://storage.googleapis.com/native/1x1.GIF]]></ClickTracking>
+		<ClickThrough><![CDATA[http://www.Retail.org]]></ClickThrough>
+		<Title>Celly Later, says leading phone developer</Title>
+		<Body charactermax="140">Recent mega-merger with Phony means big plus for consumers</Body>
+		<Body charactermax="500">In recent news, Celly just finished a mega-merger with rival cellphone company Phony. "We see this as a big plus for the consumer," says Bill Job, CEO and Founder. "Literally. Every cellphone will have a giant plus sign button on the front, and no other buttons. Simple, pure functionality."</Body>
+		<MediaFile id="1" delivery="progressive" type="image/jpeg" width="120" height="45"><![CDATA[http://storage.googleapis.com/native/Retail_120x45.jpg]]></MediaFile>
+		<MediaFile id="1" delivery="progressive" type="image/jpeg" width="300" height="60"><![CDATA[http://storage.googleapis.com/native/Retail_300x60.jpg]]></MediaFile>
+		<MediaFile id="1" delivery="progressive" type="image/jpeg" width="300" height="250"><![CDATA[http://storage.googleapis.com/native/Retail_300x250.jpg]]></MediaFile>
+	</Ad>
+</VNAT>

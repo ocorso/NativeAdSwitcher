@@ -1,0 +1,13 @@
+<VNAT version="1.0">
+	<Ad id="000000001">
+		<Impression id="DART"><![CDATA[http://storage.googleapis.com/native/1x1.GIF]]></Impression>
+		<ClickTracking id="DART"><![CDATA[http://storage.googleapis.com/native/1x1.GIF]]></ClickTracking>
+		<ClickThrough><![CDATA[http://www.Pets.org]]></ClickThrough>
+		<Title>The New Toro is fast...Very Fast</Title>
+		<Body charactermax="140">The latest tests from Car Driver are here!</Body>
+		<Body charactermax="500">The latest tests from Car Driver have shown that Toro cars get more miles per gallon than the leading competitor, but that doesn't mean it compromises on speed.  "It blew me away," said Roddy Pipe, pole position driver of the Kansas 500.  "The new 2014 Toro has more pep to it than is probably legal." </Body>
+		<MediaFile id="1" delivery="progressive" type="image/jpeg" width="120" height="45"><![CDATA[http://storage.googleapis.com/native/Auto_120x45.jpg]]></MediaFile>
+		<MediaFile id="1" delivery="progressive" type="image/jpeg" width="300" height="60"><![CDATA[http://storage.googleapis.com/native/Auto_300x60.jpg]]></MediaFile>
+		<MediaFile id="1" delivery="progressive" type="image/jpeg" width="300" height="250"><![CDATA[http://storage.googleapis.com/native/Auto_300x250.jpg]]></MediaFile>
+	</Ad>
+</VNAT>
