@@ -64,7 +64,7 @@ main.resetAndActivate = function(className){
 	$("ul#switcher_btns li").removeClass("active");
 	$(".post").removeClass("desktop-infeed facebook-feed textlink-img desktop-inpage")
 		.addClass(className);
-	$("#posts").removeClass("facebook-container desktop-inpage-container");
+	$("#posts").removeClass("facebook-container desktop-inpage-container textlink-img-container");
 
 	switch(className){
 		case "facebook-feed": 
@@ -73,6 +73,10 @@ main.resetAndActivate = function(className){
 			break;
 		case "desktop-inpage": 
 			$("#posts").addClass("desktop-inpage-container");
+			$("#facebook_header").css("display","none");
+			break;
+		case "textlink-img" :
+			$("#posts").addClass("textlink-img-container");
 			$("#facebook_header").css("display","none");
 			break;
 		default: 

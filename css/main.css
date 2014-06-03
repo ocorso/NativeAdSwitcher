@@ -96,6 +96,7 @@ textarea {
 /* ==========================================================================
    ORed's custom styles
    ========================================================================== */
+.fb-fpo{display: none;}
 .nav-pills a{ outline: none;}
 
 body {
@@ -119,6 +120,7 @@ margin-top: 20px;
 padding-bottom: 20px;
 }
 #posts{
+  position: relative;
   padding-left: 0;
   padding-top: 20px;
   margin-top: 20px;
@@ -183,7 +185,7 @@ padding-bottom: 20px;
    /* ==========================================================================
    Facebook Feed
    ========================================================================== */
-
+.facebook-container .fb-fpo{ display: block;}
 .facebook-container{
   width: 360px;
   height: 519px;
@@ -203,6 +205,7 @@ padding-bottom: 20px;
   width: 330px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 15px;
   -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
   border-radius: 2px; /* future proofing */
@@ -212,6 +215,7 @@ padding-bottom: 20px;
 font-family: 'lucida grande', tahoma, verdana, arial, sans-serif;
 
 }
+
 .facebook-feed header{
   padding: 7px;
 }
@@ -248,10 +252,12 @@ font-family: 'lucida grande', tahoma, verdana, arial, sans-serif;
   display: none;
 }
 .facebook-feed .featured-section{
--webkit-box-shadow: 1px 1px 1px 1px rgba(0,0,0,.1);
-box-shadow: 1px 1px 1px 1px rgba(0,0,0,.1);
-
-margin-right: 12px;
+  -webkit-box-shadow: 1px 1px 1px 1px rgba(0,0,0,.1);
+  box-shadow: 1px 1px 1px 1px rgba(0,0,0,.1);
+  margin-right: 12px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px; /* future proofing */
 }
 .facebook-feed .featured-section {
   color: #262626;
@@ -262,14 +268,35 @@ margin-right: 12px;
    /* ==========================================================================
    Text Link with Images
    ========================================================================== */
-.textlink-img .title{
-  font-size: 16px;
-}
+.textlink-img{
+  position: absolute;
+  top: 716px;
 
+  width: 126px;
+  height: 121px;
+  font-size: 12px;
+  color: #0000ff;
+}
+.textlink-img .title{
+  font-size: 12px;
+  color: #0000ff;
+  font-weight: bold;
+  margin-top: 48px;
+}
+.textlink-img .img-120x45{
+  position: absolute;
+  top:0;
+}
+.textlink-img-container{
+  width: 1197px;
+  height: 983px;
+  background-image: url('../img/fpo/yahoo-fpo.jpg');
+}
 .textlink-img header,
 .textlink-img .body-500,
 .textlink-img .featured-section,
 .textlink-img .img-300x60,
+.textlink-img .img-125x83,
 .textlink-img .img-300x250{
   display: none;
 }
@@ -289,7 +316,7 @@ margin-right: 12px;
 .desktop-inpage{
   position: absolute;
   background-color: rgba(255,0,0,.2);
-  top: 795px;
+  top: 175px;
   height: 150px;
   width: 536px;
 
